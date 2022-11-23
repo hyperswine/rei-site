@@ -5,7 +5,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  basePath: '/gh-pages',
+  basePath: 'hyperswine/rei-site',
 }
 
 module.exports = nextConfig
