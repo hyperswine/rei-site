@@ -1,11 +1,11 @@
 "use client"
-import { Button, ChakraProvider } from "@chakra-ui/react"
+import { Box, Button, ChakraProvider } from "@chakra-ui/react"
 
 export default function Page() {
   return (
-    <>
+    <Box>
       <Button />
       <>Hi</>
-    </>
+    </Box>
   )
 }

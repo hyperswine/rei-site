@@ -1,11 +1,13 @@
 "use client"
-import { Button, ChakraProvider } from "@chakra-ui/react"
+import { Box, Button, ButtonGroup } from '@chakra-ui/react'
 
-export default function Page() {
+const Page = () => {
   return (
-    <>
+    <Box>
       <Button />
       <>Rei Tutorial</>
-    </>
+    </Box>
   )
 }
+
+export default Page
